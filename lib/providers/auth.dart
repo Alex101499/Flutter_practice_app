@@ -8,7 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class Auth with ChangeNotifier {
   static const params = {
-    'key': 'AIzaSyDueBEWoPVoPJgXl1CK-LYy9jaLINKDgt8',
+    'key': 'API_KEY',
   };
   String _token;
   DateTime _expiryDate;
